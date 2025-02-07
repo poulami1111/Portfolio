@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div className="flex flex-col text-center items-center min-h-screen max-w-full">
+    <div className="flex flex-col text-center overflow-hidden items-center min-h-screen max-w-full">
       <Navbar/>
       <div className="px-64 py-8">
         <HeroSection />
