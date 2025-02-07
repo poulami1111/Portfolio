@@ -1,12 +1,12 @@
 "use client"
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import {  FaLinkedinIn, FaInstagram} from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import Image from "next/image";
 import { IoMdMail } from "react-icons/io";
 
 const PortfolioHeader: React.FC = () => {
-   
+
     const subTextRef = useRef<HTMLParagraphElement>(null);
     const imgRef = useRef<HTMLDivElement>(null);
 
@@ -62,22 +62,22 @@ const PortfolioHeader: React.FC = () => {
 
             {/* Description Section */}
             <p className="text-sm md:text-base max-w-3xl leading-relaxed">
-                Hi, I&apos;m Poulami Das , a freelancer specializing in premium web
-                design, development, and SEO services. I&apos;m passionate about creating
-                unique and effective solutions for my clients, and I bring a personal
+                Hi, I&apos;m Poulami Das , a developer specializing in premium Web
+                Design, Development, and App services. I&apos;m passionate about creating
+                unique and effective solutions for the companies, and I bring a personal
                 touch to every project. Let&apos;s work together to bring your vision to
                 life!
             </p>
 
             {/* Social Icons */}
             <div className="flex space-x-6 mt-6">
-           
+
                 <a
-                     href="mailto:poulami.das7604@gmail.com"
+                    href="mailto:poulami.das7604@gmail.com"
                     className="text-gray-400 hover:text-white transition-colors text-xl"
                     aria-label="Twitter"
                 >
-                 <IoMdMail />
+                    <IoMdMail />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/poulami-das-081061230/"
@@ -87,7 +87,7 @@ const PortfolioHeader: React.FC = () => {
                     <FaLinkedinIn />
                 </a>
                 <a
-                    href="https://www.instagram.com/poul_amidasvlogs/"
+                    href="https://www.instagram.com/poul_amidas/"
                     className="text-gray-400 hover:text-white transition-colors text-xl"
                     aria-label="Instagram"
                 >

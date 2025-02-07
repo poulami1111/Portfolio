@@ -9,13 +9,13 @@ const Testimonials = () => {
          
           company: "Make me Global",
         },
-        {
-          title: "Front end developer",
-          description:
-            "Poulami's frontend skills transformed our ideas into a visually stunning and interactive website. She ensured seamless performance, modern animations, and a clean codebase that made future updates a breeze. Her attention to detail and commitment to delivering high-quality work impressed us throughout the project.",
+        // {
+        //   title: "Front end developer",
+        //   description:
+        //     "Poulami's frontend skills transformed our ideas into a visually stunning and interactive website. She ensured seamless performance, modern animations, and a clean codebase that made future updates a breeze. Her attention to detail and commitment to delivering high-quality work impressed us throughout the project.",
          
-          company: "Growth Loop Technology.",
-        },
+        //   company: "Growth Loop Technology.",
+        // },
       ];
       
 
@@ -29,7 +29,7 @@ const Testimonials = () => {
           See what my clients have to say about working with me and the results I helped them achieve.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+      <div className="grid grid-cols-1 gap-8 mt-12">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}

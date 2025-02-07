@@ -32,43 +32,39 @@ const FiveSteps = () => {
 
     return () => ctx.revert();
   }, []);
-
   const steps = [
+
     {
-      title: 'Research & Inspiration',
-      description: 'Understand project requirements, gather ideas, and draw design inspiration.',
-      points: ['Analyze client needs', 'Research industry trends', 'Create mood boards'],
+      title: 'Designing in Figma',
+      description: 'Use Figma to create app screens, components, and design prototypes.',
+      points: ['Design wireframes and layouts', 'Create reusable components', 'Use auto-layout for responsiveness'],
     },
     {
-      title: 'Wireframing & Prototyping',
-      description: 'Sketch and design the structure and flow of the website.',
-      points: ['Draw low-fidelity wireframes', 'Build clickable prototypes', 'Review and refine user flows'],
+      title: 'Integrating RESTful API',
+      description: 'Connect the app with backend services using RESTful APIs.',
+      points: ['Fetch and display dynamic data', 'Handle authentication and user sessions', 'Optimize API calls for performance'],
     },
     {
-      title: 'Visual Design',
-      description: 'Craft visually appealing designs that reflect the brand’s identity.',
-      points: ['Create high-fidelity mockups', 'Choose typography and color palettes', 'Design UI elements and components'],
+      title: 'Responsive Development',
+      description: 'Ensure the app is fully responsive across different screen sizes.',
+      points: ['Use flexible layouts and adaptive UI', 'Optimize interactions for touchscreens', 'Test on multiple devices'],
     },
     {
-      title: 'Frontend Development',
-      description: 'Translate designs into responsive, interactive, and optimized code.',
-      points: ['Code layouts with HTML and CSS', 'Build reusable components', 'Integrate animations and interactions'],
-    },
-    {
-      title: 'Delivery & Handover',
-      description: 'Ensure the project is ready for deployment and future updates.',
-      points: ['Optimize code and assets', 'Conduct cross-browser testing', 'Prepare documentation for handoff'],
+      title: 'Testing & Deployment',
+      description: 'Test the app thoroughly and deploy it for users.',
+      points: ['Perform functional and UI testing', 'Fix bugs and optimize performance', 'Deploy to App Store and Play Store'],
     },
   ];
+  
 
   return (
     <section ref={sectionRef} className="py-20 px-8 md:px-32 min-h-screen">
       <h2 className="text-4xl md:text-7xl font-serif text-center mb-10">
-        Your Website <span className="italic"><br />in 5 steps</span>
+        My work <span className="italic"><br />in 5 steps</span>
       </h2>
-      <p className="text-center text-lg mb-16">
+      {/* <p className="text-center text-lg mb-16">
         From concept to completion, we guide you through every step of the process.
-      </p>
+      </p> */}
       <div className="relative">
         <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-[#DAC5A7] bg-opacity-20 h-full"></div>
         {steps.map((step, index) => (

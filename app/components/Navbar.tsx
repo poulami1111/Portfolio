@@ -28,7 +28,7 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#services" className="hover:text-gray-400 transition-colors">
-              Services
+              Projects
             </a>
           </li>
           <li>

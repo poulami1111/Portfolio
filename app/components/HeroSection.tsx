@@ -61,7 +61,7 @@ const HeroSection = () => {
         ref={textRef}
         className="text-lg md:text-xl font-light text-gray-700"
       >
-        Premium web design, development, <br /> and SEO services to help your
+        Premium web design, development, <br /> and App services to help your
         business stand out.
       </p>
     </div>

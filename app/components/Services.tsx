@@ -16,15 +16,15 @@ const Services = () => {
       title: "DEVELOPMENT",
       description:
         "Get custom web development solutions that are tailored to your specifications, designed to deliver a flawless user experience.",
-      linkText: "ABOUT WEBFLOW",
+      linkText: "ABOUT DEVELOPMENT",
     },
     {
       id: "03",
-      title: "CONTENT & SEO",
-      description:
-        "Proven SEO strategies that enhance your online performance, bringing you to the forefront of organic search results.",
-      linkText: "ABOUT SEO",
-    },
+      title: "APP",
+      description: "Innovative and user-friendly applications designed to enhance user experience and streamline functionality.",
+      linkText: "ABOUT APP",
+    }
+    
   ];
 
   return (
